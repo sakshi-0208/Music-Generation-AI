@@ -33,8 +33,8 @@ The model learns musical patterns from classical composers like Mozart, Chopin, 
 
    Main libraries used:
 
-    numpy
-    tensorflow
+    numpy,
+    tensorflow,
     music21
   
 6. How to Run
