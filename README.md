@@ -28,14 +28,16 @@ The model learns musical patterns from classical composers like Mozart, Chopin, 
    The dataset is organized into folders, and all .mid files are automatically loaded from             subfolders for training.
 
 4. Install all required libraries using:
-  pip install -r requirements.txt
 
-  Main libraries used:
-  numpy
-  tensorflow
-  music21
+   pip install -r requirements.txt
+
+   Main libraries used:
+
+    numpy
+    tensorflow
+    music21
   
-5. How to Run
+6. How to Run
 
    Run the following commands step by step:
 
@@ -48,7 +50,7 @@ The model learns musical patterns from classical composers like Mozart, Chopin, 
    3) python generate_music.py
       Generates new music and saves output as output.mid
 
-6. How It Works
+7. How It Works
    1) MIDI files are converted into note sequences
    2) LSTM neural network learns musical patterns
    3) Model predicts next notes in sequence
